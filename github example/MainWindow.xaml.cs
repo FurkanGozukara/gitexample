@@ -32,7 +32,8 @@ namespace github_example
 
         private void newfunction()
         {
-            MessageBox.Show("new function example");
+            localMath mylocalMath = new localMath();
+            var vrResult = mylocalMath.returnSquare(3423);
         }
     }
 }
