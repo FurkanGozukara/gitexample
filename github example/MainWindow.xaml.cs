@@ -29,5 +29,10 @@ namespace github_example
         {
             MessageBox.Show("example click");
         }
+
+        private void newfunction()
+        {
+            MessageBox.Show("new function example");
+        }
     }
 }
