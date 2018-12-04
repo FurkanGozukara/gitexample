@@ -28,6 +28,7 @@ namespace github_example
         private void exBtn_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("example click");
+            return;
         }
 
         private void newfunction()
